@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 
 namespace WorkAround1
 {
-    //public class Program
-    //{
         //    public static void Foo()
         //    {
         //        Person person = new Person();

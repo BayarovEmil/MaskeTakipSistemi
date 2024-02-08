@@ -16,7 +16,7 @@ namespace WorkAround2
             person.FirstName = "ENGİN";
             person.LastName = "DEMİROĞ";
             person.DateOfBirth = 1985;
-            person.NationalIdentity = 28861499108; 
+            person.NationalIdentity = 123456789; 
 
             PttManager pttManager = new PttManager(new PersonManager());
             pttManager.GiveMask(person);
