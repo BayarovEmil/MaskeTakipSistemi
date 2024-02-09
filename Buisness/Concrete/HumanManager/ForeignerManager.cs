@@ -6,21 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Buisness.Concrete
+namespace Buisness.Concrete.HumanManager
 {
     public class ForeignerManager : IApplicantService
     {
-        public void ApplyForMask(Person person)
-        {
-            throw new NotImplementedException();
-        }
-
         public bool CheckPerson(Person person)
         {
             throw new NotImplementedException();
         }
 
-        public List<Person> GetList()
+        public void ControlFile(Person person)
         {
             throw new NotImplementedException();
         }

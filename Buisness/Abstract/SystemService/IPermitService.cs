@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Buisness.Abstract
+namespace Buisness.Abstract.SystemService
 {
-    public interface ISuplierService
+    public interface IPermitService
     {
-        void GiveMask(Person person);
+        void GivePermit(Person person);
     }
 }
